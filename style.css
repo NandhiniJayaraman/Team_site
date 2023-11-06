@@ -1,0 +1,149 @@
+.a-container h1{
+    color: White;
+    text-align: center;
+    position: relative;
+    top: 5px;
+    font-size: 70px;
+}
+.a-container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: consolas;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    min-height: 100vh;
+    background: #111;
+}
+.a-services{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    flex-wrap: wrap;
+}
+.a-services .a-box{
+    position: relative;
+    width: 320px;
+    height: 400px;
+    color: #fff;
+    background: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 30px;
+    transition: 0.5s;
+}
+.a-services .a-box:hover{
+    transform: translateY(-20px);
+}
+.a-services .a-box::before{
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, #ffbc00, #ff0058);
+}
+.a-services .a-box::after{
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, #ffbc00, #ff0058);
+    filter: blur(30px);
+}
+.a-services .a-box:nth-child(2)::before,
+.a-services .a-box:nth-child(2)::after{
+    background: linear-gradient(315deg, #03a9f4, #ff0058);
+}
+.a-services .a-box:nth-child(3)::before,
+.a-services .a-box:nth-child(3)::after{
+    background: linear-gradient(315deg, #4dff03, #00d0ff);
+}
+.a-services .a-box span{
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    right: 6px;
+    bottom: 6px;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+}
+.a-services .a-box span::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    pointer-events: none;
+}
+.a-services .a-box .a-content{
+    position: relative;
+    z-index: 10;
+    padding: 20px 40px;
+}
+.a-services .a-box .a-content h2{
+    font-size: 2 em;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.a-sevices .a-box .a-content p{
+    font-size: 1.1 em;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.a-services .a-box .a-content p{
+    font-size: 1.1 em;
+    color: #fff;
+    margin-bottom: 10px;
+    line-height: 1.4em;
+}
+.a-services .a-box .a-content a{
+    display: inline-block;
+    font-size: 1.1 em;
+    color: #111;
+    background: #fff;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 700;
+}
+.a-services .a-box .a-content i{
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
