@@ -168,6 +168,63 @@ a:hover::after{
     font-family: 'Poppins' !important;
 }
 
+.a-copyright {
+    width: 100%;
+    background-color: brown;
+    text-align: center;
+    font-weight: 300;
+}
+
+.a-copyright i {
+    color:  rgb(0, 255, 0);
+    transition: color 0.5s;
+}
+
+.a-copyright i:hover {
+    color: #fff;
+}
+
+nav .fas {
+    display: none;
+}
+.btn{
+    color: white;
+    border: 1px solid rgb(255, 140, 0);
+}
+.btn.btn2 {
+    display: inline-block
+}
+
+.btn.btn3 {
+    background: rgb(74, 242, 7);
+    margin-top: 30px;
+    transition: background 0.5;
+
+}
+
+.btn.btn3:hover {
+    background:  rgb(255, 140, 0);
+}
+
+.a-contact-right form {
+    width: 100%;
+}
+.a-contact-left{
+     margin-top: 100px;
+     margin-left: 50px;
+}
+form input,
+form textarea {
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
 
 
 
@@ -275,8 +332,16 @@ a:hover::after{
 {
     margin-top: 55px;
 }
-
-
+#a-contact{
+    background-color: #111;
+    color: white;
+    button{
+        color: white;
+    }
+}
+#a-p{
+    padding: 20px;
+}
 
 
 
