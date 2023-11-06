@@ -149,21 +149,24 @@ a:hover::after{
 }
 .a-section-bg{
     background-color: #111;
-    background: url(black.jpg) no-repeat;
     background-size: cover;
     height: 500px;
 }
 #a-name{
-    color: red;
+    color: rgb(0, 255, 13);
     margin-top: 100px;
     margin-left: 100px;
-    font-size: 30px ;
+    font-size: 30px;
+    font-weight: 800;
 }
 #a-name p:first-child{
+    color: #0ef2ea;
     font-size: 70px;
     margin-bottom: 0;
 }
-
+*{
+    font-family: 'Poppins' !important;
+}
 
 
 
@@ -340,7 +343,7 @@ a:hover::after{
 
 .n-team{
     width: auto;
-    height: 900px;
+    height: 170%;
     background: #111;
 
 }
@@ -351,7 +354,6 @@ a:hover::after{
     justify-content: space-evenly;
     flex-wrap: wrap;
     /* margin: 80px; */
-    
     
     
     
@@ -416,24 +418,4 @@ a:hover::after{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#anymain::after{
-    content: "";
-
-    clear: both;
-
-}
 
