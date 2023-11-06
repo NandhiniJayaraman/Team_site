@@ -383,7 +383,7 @@ a:hover::after{
 .n-dataviz{
      background-image: url("viz.png");
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;
     
 }
 .n-userflow{
