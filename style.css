@@ -149,7 +149,75 @@
 
 .j-team_members
 {
-    height: 50%;
-    width: 50%;
-    background-color: rgba(0, 0, 255, 0.422);
+    height: auto;
+    width: auto;
+    background-color: black;
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+    font-family: consolas;
+    font-size: 70px;
 }
+.heading
+{
+    width: 100%;
+    text-align: center;
+    font-size: 45px;
+    margin-top: 50px;
+}
+.j-members
+{
+    border: 2px solid rgb(83, 58, 58);
+    border-radius: 50%; 
+    overflow: hidden; 
+    height: 300px;
+    width: 300px;
+    margin-bottom: 55px;
+}
+#ayyanar > img
+{
+    height:100%;
+    width: 100%;
+    object-fit: cover;
+}
+#jeeva > img
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#nandhini > img
+{
+    height: 100%;
+    object-fit: cover;   
+    width: 100%;
+}
+#sastihari > img
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#sathish > img
+{
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+}
+/* #sathish:hover{
+    background-color: white;
+    transition: all 1ms;
+    box-shadow: 0 0 20px 20px #2f2f2f;
+} */
+.j-members:hover,
+.j-members:focus {
+ 
+    scale: 0.9;
+}
+.j-members .p
+{
+    margin-top: 55px;
+}
+
+
+
