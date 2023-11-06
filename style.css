@@ -153,3 +153,177 @@
     width: 50%;
     background-color: rgba(0, 0, 255, 0.422);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.team_achievements{
+    width: auto;
+    height: 900px;
+    background: #111;
+
+}
+
+.n-achievements{
+    background: #111;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* margin: 80px; */
+    
+    
+    
+    
+}
+.n-container h1{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+    font-family: consolas;
+    font-size: 70px;
+    
+    
+    
+    
+}
+
+.n-card{
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 20px;
+    margin: 50px;
+    
+ 
+}
+.n-card:hover{
+    scale: 1.1;
+    box-shadow: 0 0 5px #ededed,
+  0 0 25px cyan,0 0 20px cyan,
+  0 0 20px cyan,0 0 20px cyan
+}
+.n-dataviz{
+     background-image: url("viz.png");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+}
+.n-userflow{
+    background-image: url("userflow1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+   
+    
+}
+.n-calculator{
+    background-image: url("calculator.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.n-presentation{
+    background-image: url("presen.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.n-title{
+    font-size: 50px;
+    padding-top: 200px;
+    padding-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
