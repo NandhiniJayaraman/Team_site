@@ -13,7 +13,6 @@
     /* display: flex;
     justify-content: center;
     align-items: center; */
-    min-height: 100vh;
     background: #111;
 }
 .a-services{
@@ -118,13 +117,52 @@
 .a-services .a-box .a-content i{
     font-size: 40px;
 }
+a{
+    color: white;
+    position: relative;
+    font-size: 20px !important;
+}
 
-
-
-
-
-
-
+nav a::after{
+    content: "";
+    width: 0;
+    height: 3px;
+    background-color: red;
+    position: absolute;
+    bottom: 0px;
+    left: 18px;
+    transition: 1s;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+a:hover::after{
+    width: 70%;
+    text-align: center;
+}
+.nav .nav-link:hover {
+    color: red; /* Change the link color to green on hover */
+}
+.a-section-bg nav{
+    margin-top: 25px;
+}
+.a-section-bg{
+    background-color: #111;
+    background: url(black.jpg) no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+#a-name{
+    color: red;
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size: 30px ;
+}
+#a-name p:first-child{
+    font-size: 70px;
+    margin-bottom: 0;
+}
 
 
 
@@ -152,4 +190,13 @@
     height: 50%;
     width: 50%;
     background-color: rgba(0, 0, 255, 0.422);
+}
+
+
+
+#anymain::after{
+    content: "";
+
+    clear: both;
+
 }
