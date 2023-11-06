@@ -207,7 +207,7 @@ a:hover::after{
     width: auto;
     background-color: #111;
     display:flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-wrap:wrap;
     
 }
