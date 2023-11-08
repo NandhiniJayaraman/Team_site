@@ -1,0 +1,258 @@
+body{
+    margin: 50px;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #1b263b;
+    color: white;
+    font-size: 20px;
+}
+#skills,#project,#contact{
+    padding: 100px 0;
+}
+#project h1,#contact h1{
+    padding-bottom:50px ;
+}
+.section{
+    min-height: 100vh;
+    padding:50px ;
+}
+#home img,#about img{ 
+    height:75vh;
+    width: 35vw;
+    border-radius: 50%;
+}
+.btn{
+    display: inline-block;
+    margin: 20px 0;
+    background-color: aqua;
+    padding: 10px;
+    color: black;
+    border-radius: 20px;
+    box-shadow: 0 0 20px aqua;
+}
+.btn:hover{
+    color:black;
+    cursor: pointer;
+}
+.title{
+    text-align: center;
+    font-size:30px;
+}
+/*commom css property*/
+
+/*Header css property*/
+.header{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #0096c7;
+    z-index: 1;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style:none;
+}
+i{
+    margin-right: 10px;
+}
+li{
+    margin-right: 100px;
+    padding-right: 50px;
+    margin: 0;
+}
+a{
+    text-decoration:none;
+    color: white;
+}
+a:hover{
+    color: aqua;
+}
+a:active{
+    color: #80ed99;
+}
+/*End*/
+
+
+/*Home page css property*/
+#home{
+   margin:50px auto ;
+   padding-top:100px;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+span{
+    color: aqua;
+    border: none;
+    text-shadow: 0 0 30px aqua;
+}
+.home-content h3{
+    font-size:30px;
+}
+.home-contwnt h1{
+    font-size:70px;
+    line-height: 1.5;
+}
+.social-media a{
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border: 2px solid aqua;
+    color: aqua;
+    border-radius: 50%;
+    font-size: 16px;
+    padding-left: 5px;
+}
+.social-media a:hover{
+    background: aqua;
+    color:white;
+}
+/*End*/
+
+
+/*About page css property*/
+#about{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+    padding-top:100px ;
+    margin: 50px 0;
+}
+
+.about-content h1,h3{
+    text-align: left;
+}
+.about-content p{
+    font-size: 20px;
+    width:100%;  
+    line-height: 2; 
+}  
+/*End*/
+
+
+/* skills css property*/
+.skills-content{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.skills-content .skills-card{
+    margin: 50px;
+    width:20vw;
+    background-color:#01243c;
+    padding:10px 20px;
+    border-radius: 50px;
+    align-items: center;
+    border:2px solid #00406a;
+    box-shadow:0 0 20px #00406a;
+    transition: 1s ease;
+}
+.skills-content .skills-card:hover{
+    
+    border-color: aqua;
+    transform: scale(1.2);
+}
+.skills-box p,.btn{
+    font-size: 20px;
+    margin: 10px 20px;
+}
+/*End*/
+
+
+/*project css property*/
+.project-content{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+} 
+.project-card{
+    width:25vw;
+    position: relative;
+    border-radius: 50px;
+    box-shadow: 0 0 20px #00406a ;
+    overflow: hidden;
+    display: flex;
+    
+}
+.project-layer{
+    position: absolute;
+    bottom:0;  
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,.1),aqua);
+    transform:translateY(100%);
+    transition: 1s ease;
+}
+.project-card:hover .project-layer{
+    cursor: pointer;
+    transform: translateY(0%);
+}
+.project-card img{
+    width: 100vw;
+    height: 50vh;
+    transition: .5s ease ;
+}
+.project-card:hover img {
+    transform: scale(1.2);
+}
+.project-layer a{
+    font-size: 40px;
+}
+.project-layer p{
+    color:#051923;
+}
+.project-layer a:hover{
+    color:greenyellow;
+}
+.project-layer a i{
+    width:50px;
+    height: 50px;
+}
+/*End*/
+
+
+/*Contact css property*/
+#contact form{
+    max-width:75%;
+    margin: 20px auto;
+    text-align: center;
+}
+#contact form .input{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap ;
+}
+::placeholder{
+    color: white;
+}
+#contact  form .input input{
+    width: 45%;
+    padding: 20px;
+    font-size:20px;
+    color: white;
+    background: #00406a ;
+    border-radius: 10px;
+    margin: 10px 0;  
+}
+#contact form textarea{
+    width: 50%;
+    margin: 0 300px;
+    font-size:20px;
+    color: white;
+    background: #00406a ;
+    border-radius: 10px;
+}
+/* End css property*/
